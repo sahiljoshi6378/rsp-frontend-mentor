@@ -17,14 +17,29 @@
   <link rel="stylesheet" href="./styles/css/main.css">
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
-
-
-
-
-
 </head>
 
 <body>
+
+  <!-- section game__wrapper -->
+  <section class="game__wrapper">
+
+    <div class="offset__nav_n_rules__wrapper">
+      <div class="offset__inner__wrapper">
+        <header class="flex flex__aic flex__jcsb">
+          <img id="logo" src="./asstes/svg/logo.svg" />
+          <div class="score__board">
+            <p>score</p>
+            <h2 id="gameScore" class="game__score">12</h2>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="rules__btn__wrapper flex flex__aic flex__jcfe">
+      <button id="rules_toggle" data-state="false" aria-label="show rules" aria-readonly="show game rules"
+        type="button">rules</button>
+    </div>
+  </section>
 
 
   <!-- custom javascript file -->
